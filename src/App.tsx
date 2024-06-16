@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import { useState, useEffect } from "react";
-import { app } from "firebaseApp";
+import { app, db } from "firebaseApp";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import Router from "./components/Router";
 import { ToastContainer } from "react-toastify";
